@@ -1,0 +1,93 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(580966.jpg);
+    background-attachment: fixed;   
+}
+
+main{
+    padding: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 95%;
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.753);
+}
+h1{
+    background:linear-gradient(to bottom, #445bfe,#7162fc) ;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu{
+    background-color: #7162fc;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.menu > a:hover{
+    background-color: rgba(11, 11, 238, 0.562);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 0, 0);
+    margin: 10px;
+}
+
+main  a{
+    color: rgb(0, 17, 255);
+}
+h2{
+    background: linear-gradient(to bottom, #448efe,#9f62fc) ;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    max-width: 400px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+footer{
+    background-color: rgba(253, 249, 249, 0.541);
+    text-align: center;
+}
+
+.imagens{
+    border-radius: 10px;
+    padding-bottom: 60vw;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+#imagem1{
+    background-image: url(screenshot1_pt_BR.png);
+}

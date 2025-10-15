@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(580966.jpg);
+    background-image: url(imagens/580966.jpg);
     background-attachment: fixed;   
 }
 
@@ -68,4 +68,5 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 10px;
+
 }

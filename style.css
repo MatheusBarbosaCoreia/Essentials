@@ -1,22 +1,23 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
 *{
     margin: 0px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-image: url(imagens/580966.jpg);
     background-attachment: fixed;   
 }
 
-main{
-    margin: auto;
-    width: 95%;
-    max-width: 1200px;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
+
 
 table{
+    font-family: "Lato";
+    font-weight: 700;
+    font-style: normal;
     border-collapse: collapse;
     border-radius: 10px;
     text-align: center;
@@ -26,7 +27,7 @@ table{
 
 
 th,td{
-
+    
     border: 1px solid black;
     padding: 10px;
     background-color: #fff9f9c7;
@@ -35,7 +36,11 @@ th,td{
 tr:nth-child(odd) { 
     background-color: rgba(150, 162, 214, 0.822);
 }
+#mobile{
+    overflow-x: auto;
+}
 h1{
+    font-family: "Sanchez",serif;
     background:linear-gradient(to bottom, #445bfe,#7162fc) ;
     text-align: center;
     padding: 10px;
@@ -48,6 +53,12 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(0, 0, 0);
 }
 
 a{
@@ -68,5 +79,9 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 10px;
-
+}
+footer{
+    margin-top: 30px;
+    background-color: rgba(253, 249, 249, 0.747);
+    text-align: center;
 }

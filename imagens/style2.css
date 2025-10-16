@@ -90,12 +90,13 @@ footer{
 
 .imagens{
     border-radius: 10px;
-    padding-bottom: 40vw;
+    padding-bottom: 50vw;
     background-size: contain;
     background-position: center center;
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
+
 #imagem1{
     background-image: url(1.png);
 }

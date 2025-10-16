@@ -41,13 +41,13 @@ tr:nth-child(odd) {
 }
 h1{
     font-family: "Sanchez",serif;
-    background:linear-gradient(to bottom, #445bfe,#7162fc) ;
+    background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
     text-align: center;
     padding: 10px;
 }
 
 #menu{
-    background-color: #7162fc;
+    background-color: #6da7eb;
     text-align: center;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,17 +68,20 @@ a{
 }
 
 a:hover{
-    background-color: rgba(11, 11, 238, 0.562);
+    background-color: rgba(11, 109, 238, 0.562);
     color: white;
     padding: 10px;
     border-radius: 10px;
 }
 h2{
-    background: linear-gradient(to bottom, #448efe,#9f62fc) ;
-    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top: 10px;
+    background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 10px;
 }
 footer{
     margin-top: 30px;

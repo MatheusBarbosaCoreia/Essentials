@@ -74,43 +74,7 @@ h3{
     align-items: center;
     
 }
-
-
 footer{
     background-color: rgba(253, 249, 249, 0.541);
     text-align: center;
-}
-
-.imagens{
-    border-radius: 10px;
-    padding-bottom: 50vw;
-    background-size: contain;
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-}
-
-#imagem1{
-    background-image: url(1.png);
-}
-#imagem2{
-    background-image: url(2.png);
-}
-#imagem3{
-    background-image: url(3.png);
-}
-#imagem4{
-    background-image: url(4-8.png);
-}
-#imagem5{
-    background-image: url(5.jpg);
-}
-#imagem6{
-    background-image: url(6.webp);
-}
-#imagem7{
-    background-image: url(7.jpg);
-}
-#imagem8{
-    background-image: url(9.png);
 }

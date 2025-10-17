@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    text-align: justify;
+}
+
+
+body{
+    background-image: url(580966.jpg);
+    background-attachment: fixed;   
+}
+main{
+    font-family: "Lato";
+    font-weight: 500;
+    padding: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.753);
+}
+
+h1{
+    font-family: "Sanchez",serif;
+    background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu{
+    font-family: "Sanchez",serif;
+    background-color: #6da7eb;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.menu > a:hover{
+    background-color: rgba(11, 11, 238, 0.562);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 0, 0);
+    margin: 10px;
+}
+
+main  a{
+    color: rgb(0, 17, 255);
+}
+
+h2{
+    font-family: "Sanchez",serif;
+    background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+

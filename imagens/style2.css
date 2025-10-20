@@ -41,7 +41,7 @@ h1{
     margin-bottom: 30px;
 }
 .menu > a:hover{
-    background-color: rgba(11, 11, 238, 0.562);
+    background-color: rgba(11, 109, 238, 0.562);
     color: white;
     padding: 10px;
     border-radius: 10px;
@@ -66,9 +66,9 @@ h2{
     font-family: "Sanchez",serif;
     background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 10px;
+    border-radius: 10px;
 }
 h3{
     padding-bottom: 10px;

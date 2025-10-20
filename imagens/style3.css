@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
 
+
 *{
     margin: 0px;
     text-align: justify;
@@ -43,7 +44,7 @@ h1{
     margin-bottom: 30px;
 }
 .menu > a:hover{
-    background-color: rgba(11, 11, 238, 0.562);
+    background-color: rgba(11, 109, 238, 0.562);
     color: white;
     padding: 10px;
     border-radius: 10px;
@@ -61,13 +62,13 @@ a{
     margin: 10px;
 }
 
-main  a{
+main a{
     color: rgb(0, 17, 255);
 }
 
 h2{
     font-family: "Sanchez",serif;
-    background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
+    background:linear-gradient(to bottom, #001effa8,#6da7eb) ;
     text-align: center;
     border-radius: 10px;
 }
@@ -78,3 +79,24 @@ h3{
 }
 
 
+table{
+    
+    width: 500px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    width: 300px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #fff9f98e;
+    
+}
+tr:nth-child(odd) { 
+    background-color: rgba(150, 162, 214, 0.822);
+}

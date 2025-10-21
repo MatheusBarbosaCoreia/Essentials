@@ -27,13 +27,13 @@ main{
     background-color: rgba(240, 248, 255, 0.753);
 }
 
+/*MENU*/
 h1{
     font-family: "Sanchez",serif;
     background:linear-gradient(to bottom, #283ff0,#6da7eb) ;
     text-align: center;
     padding: 10px;
 }
-
 .menu{
     font-family: "Sanchez",serif;
     background-color: #6da7eb;
@@ -49,23 +49,21 @@ h1{
     padding: 10px;
     border-radius: 10px;
 }
-
 hr{
     height: 1px;
     border: none;
     background-color: black;
 }
-
 a{
     text-decoration: none;
     color: rgb(12, 0, 0);
     margin: 10px;
 }
-
 main a{
     color: rgb(0, 17, 255);
 }
 
+/*TITULOS*/
 h2{
     font-family: "Sanchez",serif;
     background:linear-gradient(to bottom, #001effa8,#6da7eb) ;
@@ -73,25 +71,27 @@ h2{
     border-radius: 10px;
 }
 
+/*SIB-TITULOS*/
 h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-
+/*TABELA*/
 table{
-    
-    width: 500px;
     border-collapse: collapse;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
-
+th{
+    width: 200px;
+}
 td{
-    width: 300px;
+    width: 60%;
 }
 th,td{
+    
     border: 1px solid black;
     padding: 10px;
     background-color: #fff9f98e;
@@ -99,4 +99,16 @@ th,td{
 }
 tr:nth-child(odd) { 
     background-color: rgba(150, 162, 214, 0.822);
+}
+
+/*CRIADOR*/
+footer{
+    margin-top: 30px;
+    background-color: rgba(253, 249, 249, 0.747);
+    text-align: center;
+}
+footer  a:hover{
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 0px;
 }

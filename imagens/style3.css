@@ -69,6 +69,7 @@ h2{
     background:linear-gradient(to bottom, #001effa8,#6da7eb) ;
     text-align: center;
     border-radius: 10px;
+    box-shadow: #30363d 3px 7px 8px 0px;
 }
 
 /*SIB-TITULOS*/
